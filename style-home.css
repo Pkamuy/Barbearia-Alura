@@ -1,0 +1,110 @@
+	header {
+	background:  #BBBBBB;
+	padding: 20Px 0;
+}
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}	
+nav {
+	position: absolute;
+	top:  110px;
+	right: 0;
+}
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+nav a {
+	text-transform:	uppercase;
+	color:  #000000;
+	font-weight: bold;
+	font-size:  22px;
+	text-decoration: none;
+}
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+	body {	
+	}
+	#banner {
+		width:  100%;
+		border: double;
+	}
+	.principal {
+		background: url("bg.jpg");
+		padding: 30px;
+	}
+	.tituloprincipal {
+		padding-left: 20px;
+	}
+	.titulo-centralizado {
+		color: #CCCCCC;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		font-style: italic;
+	}
+	.titulo-beneficios {
+		color: #000000;
+		text-align: center;
+		font-size: 30px;
+		font-weight: bold;
+		font-style: italic;
+		margin: 0 0 25px 0;
+	}
+	p {
+		color: #CCCCCC;
+		text-align: center;
+	}
+	
+	em strong {
+		color: #FF0000;
+	}
+	.itens {
+		font-style: italic;
+		font-size: 20px;
+		margin: 25px 50px;
+	}
+
+	.beneficios {
+		position: relative;
+		margin: auto auto;
+		background:  #FFFFFF;
+		padding: 30px;
+		width: 940px;
+	}
+
+	.header {
+		display: inline-block;
+		vertical-align: top;
+		width: 100%;
+		margin-right: 15%;
+	}
+
+	.main {
+		display: inline-block;
+		vertical-align: top;
+		margin: 30px 15px;
+	}
+	.imagembeneficios {
+		position: absolute;
+		right: 0;
+		width: 50%;
+		border: double;
+	}
+	footer {
+	margin-top: 90px;
+	position: relative;
+	top:  auto;
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 70px 50px;
+}
+.copyright{
+	color: #FFFFFF;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
